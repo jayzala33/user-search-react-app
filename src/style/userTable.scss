@@ -1,0 +1,27 @@
+.tableContainer {
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  margin-top: 100px;
+}
+
+.inputContainer {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  > button {
+    max-width: 150px;
+    margin: 5px 0 10px 10px;
+  }
+  > span {
+    margin: 8px 0 10px 10px;
+    cursor: pointer;
+    color: blue;
+  }
+}
+.noDataStyle {
+  text-align: center;
+}
