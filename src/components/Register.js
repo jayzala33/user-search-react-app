@@ -13,7 +13,7 @@ const Register = () => {
     return (
       <div>
         <label className="labelStyle">{label}</label>
-        <input ref={ref} type={type} className="inputStyle" />
+        <input ref={ref} type={type} className="inputStyle" required />
       </div>
     );
   });
@@ -36,7 +36,7 @@ const Register = () => {
     return (
       <form className="formStyle" onSubmit={handleSubmit}>
         <Field ref={nameRef} label="Name:" type="text" />
-        <Field ref={emailRef} label="Email:" type="text" />
+        <Field ref={emailRef} label="Email:" type="email" />
         <Field ref={passwordRef} label="Password:" type="password" />
         <div>
           <button className="submitStyle" type="submit">

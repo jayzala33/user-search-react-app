@@ -15,7 +15,7 @@ const Login = () => {
     return (
       <div>
         <label className="labelStyle">{label}</label>
-        <input ref={ref} type={type} className="inputStyle" />
+        <input ref={ref} type={type} className="inputStyle" required />
       </div>
     );
   });
