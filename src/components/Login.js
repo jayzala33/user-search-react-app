@@ -38,7 +38,7 @@ const Login = () => {
     };
     return (
       <form className="formStyle" onSubmit={handleSubmit}>
-        <Field ref={emailRef} label="Email:" type="text" />
+        <Field ref={emailRef} label="Email:" type="email" />
         <Field ref={passwordRef} label="Password:" type="password" />
         <div>
           <button className="submitStyle" type="submit">
